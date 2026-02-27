@@ -86,6 +86,7 @@ end component sevenseg_decoder;
 
   -- create wire to connect button to 7SD enable (active-low)
     signal w_7SD_EN_n   :   std_logic;
+    signal w_seg_n      :   std_logic_vector(6 downto 0);
   
 begin
 	-- PORT MAPS ----------------------------------------
